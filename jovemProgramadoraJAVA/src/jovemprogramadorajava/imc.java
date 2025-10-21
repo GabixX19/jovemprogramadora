@@ -22,6 +22,16 @@ public class imc {
         if(sexo != 'h' || sexo != 'm');
         System.err.println("VOCE DIGITOU UM SEXO INVALIDO");
         System.exit(0);
+ 
+        imc = peso / (altura * altura);
+        
+        System.out.println("SEU IMC CALCULADO EH: " + imc);
+        if (sexo == 'H' || sexo == 'h') {
+            
+            if (imc > 39.0) {
+                System.out.println("SEU INDICE EH OBESIDADE MORBITAQA");
+            }
+        }
     }
     
 }
