@@ -29,7 +29,7 @@ public class imc {
         if (sexo == 'H' || sexo == 'h') {
             
             if (imc > 39.0) {
-                System.out.println("SEU INDICE EH OBESIDADE MORBITAQA");
+                System.out.println("SEU INDICE EH OBESIDADE MORBITA");
             }
         }
     }
